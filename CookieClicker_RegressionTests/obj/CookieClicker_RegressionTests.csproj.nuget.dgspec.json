@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bogamg\\source\\repos\\CookieClicker\\CookieClicker_RegressionTests\\CookieClicker_RegressionTests.csproj": {}
+    "C:\\Users\\bogamg\\source\\repos\\CookieClicker_RegressionTests\\CookieClicker_RegressionTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bogamg\\source\\repos\\CookieClicker\\CookieClicker_Automation\\CookieClicker_Automation.csproj": {
+    "C:\\Users\\bogamg\\source\\repos\\CookieClicker_Automation\\CookieClicker_Automation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bogamg\\source\\repos\\CookieClicker\\CookieClicker_Automation\\CookieClicker_Automation.csproj",
+        "projectUniqueName": "C:\\Users\\bogamg\\source\\repos\\CookieClicker_Automation\\CookieClicker_Automation.csproj",
         "projectName": "CookieClicker_Automation",
-        "projectPath": "C:\\Users\\bogamg\\source\\repos\\CookieClicker\\CookieClicker_Automation\\CookieClicker_Automation.csproj",
-        "packagesPath": "C:\\Users\\bogamg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bogamg\\source\\repos\\CookieClicker\\CookieClicker_Automation\\obj\\",
+        "projectPath": "C:\\Users\\bogamg\\source\\repos\\CookieClicker_Automation\\CookieClicker_Automation.csproj",
+        "packagesPath": "C:\\Users\\bogamg_adm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bogamg\\source\\repos\\CookieClicker_Automation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\bogamg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bogamg_adm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -100,17 +100,17 @@
         }
       }
     },
-    "C:\\Users\\bogamg\\source\\repos\\CookieClicker\\CookieClicker_RegressionTests\\CookieClicker_RegressionTests.csproj": {
+    "C:\\Users\\bogamg\\source\\repos\\CookieClicker_RegressionTests\\CookieClicker_RegressionTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bogamg\\source\\repos\\CookieClicker\\CookieClicker_RegressionTests\\CookieClicker_RegressionTests.csproj",
+        "projectUniqueName": "C:\\Users\\bogamg\\source\\repos\\CookieClicker_RegressionTests\\CookieClicker_RegressionTests.csproj",
         "projectName": "CookieClicker_RegressionTests",
-        "projectPath": "C:\\Users\\bogamg\\source\\repos\\CookieClicker\\CookieClicker_RegressionTests\\CookieClicker_RegressionTests.csproj",
-        "packagesPath": "C:\\Users\\bogamg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bogamg\\source\\repos\\CookieClicker\\CookieClicker_RegressionTests\\obj\\",
+        "projectPath": "C:\\Users\\bogamg\\source\\repos\\CookieClicker_RegressionTests\\CookieClicker_RegressionTests.csproj",
+        "packagesPath": "C:\\Users\\bogamg_adm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bogamg\\source\\repos\\CookieClicker_RegressionTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\bogamg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bogamg_adm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -124,8 +124,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\bogamg\\source\\repos\\CookieClicker\\CookieClicker_Automation\\CookieClicker_Automation.csproj": {
-                "projectPath": "C:\\Users\\bogamg\\source\\repos\\CookieClicker\\CookieClicker_Automation\\CookieClicker_Automation.csproj"
+              "C:\\Users\\bogamg\\source\\repos\\CookieClicker_Automation\\CookieClicker_Automation.csproj": {
+                "projectPath": "C:\\Users\\bogamg\\source\\repos\\CookieClicker_Automation\\CookieClicker_Automation.csproj"
               }
             }
           }

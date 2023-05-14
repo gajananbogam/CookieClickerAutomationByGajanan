@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bogamg\\source\\repos\\CookieClicker\\CookieClicker_Automation\\CookieClicker_Automation.csproj": {}
+    "C:\\Users\\bogamg\\source\\repos\\CookieClicker_Automation\\CookieClicker_Automation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bogamg\\source\\repos\\CookieClicker\\CookieClicker_Automation\\CookieClicker_Automation.csproj": {
+    "C:\\Users\\bogamg\\source\\repos\\CookieClicker_Automation\\CookieClicker_Automation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bogamg\\source\\repos\\CookieClicker\\CookieClicker_Automation\\CookieClicker_Automation.csproj",
+        "projectUniqueName": "C:\\Users\\bogamg\\source\\repos\\CookieClicker_Automation\\CookieClicker_Automation.csproj",
         "projectName": "CookieClicker_Automation",
-        "projectPath": "C:\\Users\\bogamg\\source\\repos\\CookieClicker\\CookieClicker_Automation\\CookieClicker_Automation.csproj",
-        "packagesPath": "C:\\Users\\bogamg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bogamg\\source\\repos\\CookieClicker\\CookieClicker_Automation\\obj\\",
+        "projectPath": "C:\\Users\\bogamg\\source\\repos\\CookieClicker_Automation\\CookieClicker_Automation.csproj",
+        "packagesPath": "C:\\Users\\bogamg_adm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bogamg\\source\\repos\\CookieClicker_Automation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\bogamg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bogamg_adm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

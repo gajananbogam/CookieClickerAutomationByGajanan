@@ -5,6 +5,7 @@ using Xunit;
 
 namespace CookieClicker_RegressionTests
 {
+    [Collection("Sequential")]
     public class StartPageTests : TestBase
     {
         public StartPageTests()
@@ -26,19 +27,20 @@ namespace CookieClicker_RegressionTests
             startPage.Factories.Text.Should().Be(Constants.Zero);
             // Verifying Moneys section is present woith default 0 value
             startPage.Money.Displayed.Should().BeTrue();
+            WaitForApplictionToLaodOrSync();
             startPage.Money.Text.Should().Be(Constants.Zero);           
             startPage.ClickCookieButton.Displayed.Should().BeTrue();
             startPage.SellCookiesInputBox.Displayed.Should().BeTrue();
             startPage.SellCookiesButton.Displayed.Should().BeTrue();
             startPage.BuyFactoriesInputBox.Displayed.Should().BeTrue();
             startPage.BuyFactoriesButton.Displayed.Should().BeTrue();
-            Dispose();
         }
 
         [Fact]
         public void VerifySellCookiesFunctionality()
         {
             CollectCookies(5);
+            WaitForApplictionToLaodOrSync();
             startPage.Cookies.Text.Should().Be("5");
             SellCookies(Constants.SpecialCharacter);
             startPage.Cookies.Text.Should().Be("5");
@@ -48,7 +50,6 @@ namespace CookieClicker_RegressionTests
             startPage.Cookies.Text.Should().Be("5");
             SellCookies(Constants.NegativeValue);
             startPage.Cookies.Text.Should().Be("5");
-            Dispose();
         }
 
         [Theory]
@@ -58,12 +59,12 @@ namespace CookieClicker_RegressionTests
         [InlineData(Constants.ValidNumber)]
         public void VerifyBuyFactories(string value)
         {
+            WaitForApplictionToLaodOrSync();
             startPage.Cookies.Text.Should().Be(Constants.Zero);
             startPage.Factories.Text.Should().Be(Constants.Zero);
             startPage.Money.Text.Should().Be(Constants.Zero);
             BuyFactories(value);
             startPage.Factories.Text.Should().Be(Constants.Zero);
-            Dispose();
         } 
     }
 }

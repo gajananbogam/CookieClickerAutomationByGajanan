@@ -1,9 +1,11 @@
 ﻿
 using OpenQA.Selenium;
+using System;
+using System.Threading;
 
 namespace CookieClicker_Automation
 {
-   public class TestBase
+   public class TestBase : IDisposable
     {
         public IWebDriver driver;
         public BasePage basePage;
@@ -20,9 +22,7 @@ namespace CookieClicker_Automation
 
         public void LaunchCoockieClickerApplication()
         {
-            //driver.Navigate().GoToUrl("https://www.google.com/");
-            //AcceptAllButton();
-            driver.Navigate().GoToUrl("Gajanan-bogam-2023-04-25.cookieclickertechtest.airelogic.com");
+            driver.Navigate().GoToUrl("https://gajanan-bogam-2023-04-25.cookieclickertechtest.airelogic.com/");
         }
 
         public void AcceptAllButton()
@@ -38,7 +38,7 @@ namespace CookieClicker_Automation
 
         public void CollectCookies(int noOfCookies)
         {
-            for (int i = 1; i == noOfCookies; i++)
+            for (int i = 1; i <= noOfCookies; i++)
             {
                 startPage.ClickCookieButton.Click();
             }
@@ -56,10 +56,14 @@ namespace CookieClicker_Automation
             startPage.BuyFactoriesButton.Click();
         }
 
+        public void WaitForApplictionToLaodOrSync()
+        {
+            Thread.Sleep(4000);
+        }
+
         public void Dispose()
         {
             driver.Dispose();
         }
-
     }
 }
